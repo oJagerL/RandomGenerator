@@ -1,4 +1,4 @@
-var NumberOfWords = 10
+var NumberOfWords = 12
 
 var words = new BuildArray(NumberOfWords)
 
@@ -12,8 +12,10 @@ words[5] = "Crusader"
 words[6] = "Protector"
 words[7] = "Berserker"
 words[8] = "Defender"
-words[9] = "Thunderlord"
-words[10] = "Earthwarden"
+words[9] = "Revenant"
+words[10] = "Thunderlord"
+words[11] = "Earthwarden"
+words[12] = "Spiritguard"
 
 function BuildArray(size){
 this.length = size
