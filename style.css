@@ -1,13 +1,14 @@
 body {
-  font-family: Verdana, Geneva, sans-serif;
-  font-size: 1.2em;
-  margin: 0 auto;
-  max-width: 960px;
+  margin: auto;
+  width: auto;
   padding: 40px 10px;
-  line-height: 1.65em;
   background: linear-gradient(to bottom, gray 0%,white 50%,#000000 50%,white 50%,gray 100%);
   color: black;
   font-weight: 300;
+}
+
+#formHolder {
+  height: 500px
 }
 
 #wordbox {

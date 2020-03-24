@@ -18,11 +18,13 @@
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i></a>
     </div>
-  <form name="WordForm">
-    <input type=text name="WordBox" id="wordbox" placeholder="Hunter thing" maxlength="0"><br>
-    <input type=button value="Generate"
-    onClick="PickRandomSpec(document.WordForm);"
-    id="button">
-  </form>
+    <div id="formHolder">
+        <form name="WordForm">
+        <input type=text name="WordBox" id="wordbox" placeholder="Hunter thing" maxlength="0"><br>
+        <input type=button value="Generate"
+        onClick="PickRandomSpec(document.WordForm);"
+        id="button">
+        </form>
+    </div>
 </body>
 </html>
