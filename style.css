@@ -9,6 +9,12 @@ body {
   font-weight: 300;
 }
 
+h2 {
+  text-align: center;
+  margin: 20% 0 5% 0;
+  color: black;
+}
+
 #wordbox {
     /*opacity: 0;*/
     margin: 30px auto 0;
