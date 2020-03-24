@@ -44,7 +44,7 @@ h2 {
     font-weight: bold;
 } */
 
-#button {
+.button {
   width: 220px;
     height: 50px;
     border: none;
@@ -57,7 +57,7 @@ h2 {
     border-radius: 10px;
 }
 
-#button:before {
+.button:before {
     content: '';
     background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
     position: absolute;
@@ -74,19 +74,19 @@ h2 {
     border-radius: 10px;
 }
 
-#button:active {
+.button:active {
     color: #000
 }
 
-#button:active:after {
+.button:active:after {
     background: transparent;
 }
 
-#button:hover:before {
+.button:hover:before {
     opacity: 1;
 }
 
-#button:after {
+.button:after {
     z-index: -1;
     content: '';
     position: absolute;
