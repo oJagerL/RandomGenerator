@@ -4,13 +4,20 @@
   <script src="SurvivorsvsHunters.js"></script>
   <link rel="stylesheet" type="text/css" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>RNG</title>
 </head>
 <body>
-    <div class="topnav" id="myTopnav">
+  <div class="topnav" id="myTopnav">
       <a href="Warlords.html">Warlords</a>
       <a href="Overwatch.html">Overwatch</a>
-      <a href="SurvivorsvsHunters.html" class="active">Hunter thing</a>
-    </div>
+      <div class="dropdown">
+          <button class="buttonDropdown">Hunters vs Survivors</button>
+          <div class="dropdown-content">
+              <a href="SurvivorsvsHunters.html" class="active">Solo</a>
+              <a href="SurvivorsvsHuntersTeams.html">Teams</a>
+          </div>
+      </div>
+  </div>
     <h2>Hunter thing</h2>
         <form name="WordForm">
         <input type=text name="WordBox" id="wordbox" placeholder="Hunter thing" maxlength="0"><br>
