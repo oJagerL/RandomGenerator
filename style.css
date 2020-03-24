@@ -1,19 +1,17 @@
 body {
-  margin: auto;
-  width: auto;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1.2em;
+  margin: 0 auto;
+  max-width: 960px;
   padding: 40px 10px;
   background: linear-gradient(to bottom, gray 0%,white 50%,#000000 50%,white 50%,gray 100%);
   color: black;
   font-weight: 300;
 }
 
-#formHolder {
-  height: 500px;
-}
-
 #wordbox {
     /*opacity: 0;*/
-    margin: 300px auto 0;
+    margin: 30px auto 0;
     display: block;
     width: 300px;
     height: 40px;
