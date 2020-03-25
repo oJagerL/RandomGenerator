@@ -196,7 +196,7 @@ div.centerBox {
     padding: .5em;
     border-radius: 3px;
     position: relative;
-    background: linear-gradient(to left, greenyellow 50%, purple 50%);
+    background-color: greenyellow;
 }
 
 div.topBox {
