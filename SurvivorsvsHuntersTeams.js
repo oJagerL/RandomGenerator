@@ -40,7 +40,7 @@ $(document).ready(function () {
             }
         } else for (var d = l.length / a, u = 1, t = 0; t < l.length; t += d) {
             for (var h = "", c = 0; c < d; c++) h += l[t + c] + "<br>";
-            $("#results ul").append('<li><span class="teamTitle">Survivors</span><p class="names">' + h + "</p></li>")
+            $("#results ul").append('<li><span class="teamTitle">Hunters</span><p class="names">' + h + "</p></li>")
         }
         $(".teamTitle").css("font-weight", "bold"), $(".names").css("margin-top", "0px"), $(".names").css("margin-left", ".5em")
     }
