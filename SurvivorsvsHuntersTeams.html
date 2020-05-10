@@ -14,47 +14,50 @@
     }
 </style>
 <body>
-    <div id="body" class="bodyTopMargin">
-        <div class="topnav" id="myTopnav">
-            <a href="Warlords.html">Warlords</a>
-            <a href="Overwatch.html">Overwatch</a>
-            <div class="dropdown">
-                <button class="buttonDropdown">Hunters vs Survivors</button>
-                <div class="dropdown-content">
-                    <a href="SurvivorsvsHunters.html">Solo</a>
-                    <a href="SurvivorsvsHuntersTeams.html">Teams</a>
-                </div>
-            </div>
-        </div>
-        <div id="inputDiv" class="centerBox">
-            <form id="userInputBox">
-                <table id="userInputTable">
-                    <tr>
-                        <td colspan="2" id="formTitle"><h3>Input player names, one name per line<br>First ones are Hunters, second ones are Survivors</h3></td>
-                    </tr>
-                    <tr>
-                        <td><label>Players</label></td>
-                        <td><textarea id="players" rows="8" cols="15"
-                                      placeholder="Player 1 &#13;&#10;Player 2 &#13;&#10;Player 3 &#13;&#10;Player 4"></textarea>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><label>Number of Teams</label></td>
-                        <td><input id="numTeams" type="number" placeholder="2" value="2"></td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">
-                            <button id="teamGenSubmit" type="button">Generate</button>
-                        </td>
-                    </tr>
-                </table>
-            </form>
-            <div id="results">
-                <ul></ul>
-            </div>
+<div class="navbar">
+    <a href="Warlords.html">Warlords</a>
+    <a href="Overwatch.html">Overwatch</a>
+    <div class="dropdown">
+        <button class="dropbtn">Hunter vs Survivor
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="SurvivorsvsHunters.html">Solo</a>
+            <a href="SurvivorsvsHuntersTeams.html">Teams</a>
         </div>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script type="text/javascript" src="SurvivorsvsHuntersTeams.js"></script>
+    <a href="ror2.html">Risk of Rain 2</a>
+</div>
+<div id="inputDiv" class="centerBox">
+    <form id="userInputBox">
+        <table id="userInputTable">
+            <tr>
+                <td colspan="2" id="formTitle"><h3>Input player names, one name per line<br>First ones are Hunters,
+                    second ones are Survivors</h3></td>
+            </tr>
+            <tr>
+                <td><label>Players</label></td>
+                <td><textarea id="players" rows="8" cols="15"
+                              placeholder="Player 1 &#13;&#10;Player 2 &#13;&#10;Player 3 &#13;&#10;Player 4"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Number of Teams</label></td>
+                <td><input id="numTeams" type="number" placeholder="2" value="2"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button id="teamGenSubmit" type="button">Generate</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <div id="results">
+        <ul></ul>
+    </div>
+</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="SurvivorsvsHuntersTeams.js"></script>
 </body>
 </html>
