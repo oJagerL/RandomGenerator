@@ -96,7 +96,7 @@ h2 {
     position: absolute;
     background-color: #f9f9f9;
     min-width: 198px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
@@ -317,4 +317,12 @@ input::-webkit-inner-spin-button, input::-webkit-outer-spin-button {
     #userInputBox, #userInputTable {
         width: 270px
     }
+}
+
+#countdown {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0px;
+    color: darkred;
+    font-weight: bold;
 }
