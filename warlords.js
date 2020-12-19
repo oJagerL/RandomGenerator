@@ -17,20 +17,22 @@ words[10] = "Thunderlord"
 words[11] = "Earthwarden"
 words[12] = "Spiritguard"
 
-function BuildArray(size){
-this.length = size
-for (var i = 1; i <= size; i++){
-this[i] = null}
-return this
+function BuildArray(size) {
+    this.length = size
+    for (var i = 1; i <= size; i++) {
+        this[i] = null
+    }
+    return this
 }
 
 function PickRandomSpec(frm) {
 // Generate a random number between 1 and NumberOfWords
-var rnd = Math.ceil(Math.random() * NumberOfWords)
+    var rnd = Math.ceil(Math.random() * NumberOfWords)
 
 // Display the word inside the text box
-frm.WordBox.value = words[rnd]
+    frm.WordBox.value = words[rnd]
 }
+
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 function myFunction() {
     var x = document.getElementById("myTopnav");

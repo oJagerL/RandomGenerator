@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <script src="ror2.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="ror2.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     <title>RNG</title>
 </head>
 <style>
@@ -15,21 +18,9 @@
     }
 </style>
 <body>
-<div class="navbar">
-    <a href="Warlords.html">Warlords</a>
-    <a href="Overwatch.html">Overwatch</a>
-    <div class="dropdown">
-        <button class="dropbtn">Hunter vs Survivor
-            <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-            <a href="SurvivorsvsHunters.html">Solo</a>
-            <a href="SurvivorsvsHuntersTeams.html">Teams</a>
-        </div>
-    </div>
-    <a href="ror2.html">Risk of Rain 2</a>
-    <a href="countdown.html">Countdown</a>
-</div>
+
+<div id="navigation"></div>
+
 <h2>Risk of Rain 2</h2>
 <form name="WordForm">
     <input type=text name="WordBox" id="wordbox" placeholder="Risk of Rain 2"><br>
@@ -37,5 +28,13 @@
            onClick="PickRandomSpec(document.WordForm);"
            id="button">
 </form>
+
+<!-- Scripts -->
+<script>
+    $(function () {
+        $("#navigation").load("navbar.html");
+    });
+</script>
+
 </body>
 </html>
