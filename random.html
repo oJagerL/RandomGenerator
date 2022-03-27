@@ -7,7 +7,18 @@
     <link rel="icon" href="favicon.jpg">
     <script src="random.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 1.2em;
+            margin: 0 auto;
+            max-width: 960px;
+            padding: 40px 10px;
+            background: linear-gradient(to bottom, green 0%, white 50%, #000000 50%, white 50%, green 100%);
+            color: black;
+            font-weight: 300;
+        }
+    </style>
     <title>RNG</title>
 </head>
 <body>
@@ -17,7 +28,7 @@
 <h2>Random</h2>
 <form name="WordForm">
     <input type=text name="WordBox" id="wordbox" placeholder="" disabled><br>
-    <input type=text name="NumberBox" id="numberbox" placeholder="" disabled><br>
+    <input type=text name="NumberBox" id="wordbox" placeholder="" disabled>
     <input type=button value="Generate"
            onClick="PickRandomSpec(document.WordForm);"
            id="button">
