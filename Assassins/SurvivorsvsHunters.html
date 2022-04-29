@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="../favicon.jpg">
+    <script src="SurvivorsvsHunters.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <title>RNG</title>
+</head>
+<style>
+    body {
+        background-image: url("https://cdn.discordapp.com/attachments/582292175329427492/692041103649538138/Naamloos.png");
+    }
+</style>
+<body>
+
+<div id="navigation"></div>
+
+<h2>Hunter thing</h2>
+<form name="WordForm">
+    <input type=text name="WordBox" id="wordbox" placeholder="Hunter thing" maxlength="0" disabled><br>
+    <input type=button value="Generate"
+           onClick="PickRandomSpec(document.WordForm);"
+           id="button">
+</form>
+
+<!-- Scripts -->
+<script>
+    $(function () {
+        $("#navigation").load("navbar.html");
+    });
+</script>
+
+</body>
+</html>

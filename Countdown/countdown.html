@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="../favicon.jpg">
+    <script src="countdown.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <title>Countdown</title>
+</head>
+<style>
+    html {
+        background: url("https://cdn.discordapp.com/attachments/582292175329427492/969618118982909972/unknown.png") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    @media only screen and (min-width: 400px) {
+        html {
+            background: url("https://cdn.discordapp.com/attachments/582292175329427492/969618118982909972/unknown.png") center center fixed;
+        }
+    }
+</style>
+<body>
+
+<div id="navigation"></div>
+<div class="bg"></div>
+
+<h2 style="color: cyan">California Countdown</h2>
+<p id="countdown"></p>
+
+<!-- Scripts -->
+<script>
+    $(function () {
+        $("#navigation").load("navbar.html");
+    });
+</script>
+
+</body>
+</html>
