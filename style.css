@@ -323,6 +323,6 @@ input::-webkit-inner-spin-button, input::-webkit-outer-spin-button {
     text-align: center;
     font-size: 60px;
     margin-top: 0px;
-    color: darkred;
+    color: green;
     font-weight: bold;
 }
