@@ -1,5 +1,5 @@
 // Set the date
-var countDownDate = new Date("July 14, 2022 09:45:00").getTime();
+var countDownDate = new Date("June 28, 2023 09:45:00").getTime();
 
 var x = setInterval(function () {
     var now = new Date().getTime();
@@ -16,6 +16,6 @@ var x = setInterval(function () {
     // If the count down is over, write some text
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("countdown").innerHTML = "We actually did it?!?";
+        document.getElementById("countdown").innerHTML = "We did it again?!?";
     }
 }, 1000);
